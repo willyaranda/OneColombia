@@ -1,0 +1,242 @@
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			Fonts
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@import "lib/anchor.trapp.less";
+@import "lib/grid.trapp.less";
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			Colors
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+// #FFD779
+// #0095DD
+
+@body_bg_color: 				#EFEEED;
+
+/* Fonts */
+@font_color_general: 		#383838;
+@color_header_ult_not: 		#FFD779;
+
+/* Tweets */
+@font_color_tweet_p: 		#A8BBD3;
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			General
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+// Configuracion del Grid
+.grid-conf-fix ( 60px, 20px, 12 );
+
+html {
+	-webkit-text-size-adjust: 6.25%;
+	-ms-text-size-adjust: 6.25%;
+	font-size: 6.25%;
+
+}
+
+body {
+	background-image: url("../img/bg.png");
+	background-repeat: repeat-x;
+	background-color: @body_bg_color;
+	color: @font_color_general;
+	font-size: 14rem;
+
+}
+h1 {
+	font-size: 42rem;
+	font-weight: normal;
+	margin: 0;
+}
+h2 {
+	font-size: 32rem;
+	font-weight: normal;
+	margin: 0;
+}
+h3 {
+	font-size: 28rem;
+	font-weight: normal;
+}
+h4 {
+	font-size: 18rem;
+	font-weight: normal;
+}
+h5 {
+	font-size: 18rem;
+}
+h6 {
+	font-size: 18rem;
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			Header
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+#header {
+	.col ( 12, auto );
+	height: 110px;
+	margin-bottom: 10px;
+	h1 {
+		.col ( 6 );
+	margin-top: 15px;
+
+	}
+	h2 {
+		.col ( 6) ;
+	}
+}
+#logo-mc {
+	.col ( 2, first );
+
+	background-image: url("../img/mozilla-colombia-logo.png");
+	background-repeat: no-repeat;
+	height: 110px;
+	margin-top: 15px;
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			Mosaico
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+#mosaico {
+	height: 180px;
+	background-color: grey;
+	clear: both;
+	div {
+		border: 1px solid #494B41;
+		height: 88px;
+		width: 88px;
+		float: left;
+	}
+}
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			Content
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+#banner-news {
+	background-color: #0080C0;
+	.col ( 5 );
+	height: 120px;
+	top: -104px;
+	position: absolute !important;
+
+	-webkit-box-shadow: 56px 23px 54px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 56px 23px 54px 0px rgba(0,0,0,1);
+	box-shadow: 56px 23px 54px 0px rgba(0,0,0,1);
+
+}
+
+#content {
+	.col ( 12, a );
+
+	nav {
+		.col ( 8, f );
+		margin-top: 40px;
+		ul {
+			list-style: none;
+			padding: 0;
+			li {
+				.col ( 4, 2 );
+				a {
+					.anchor ( #8C8C8C, #0080C0 , #8C8C8C, #8C8C8C, false );
+					font-size: 28rem;
+					left: 6px;
+				   position: relative;
+				   top: 22px;
+				}
+			}
+		}
+	}
+}
+.box {
+	background-repeat: no-repeat;
+	background-position: 50%;
+	float: left;
+	width: 100px;
+	height: 85px;
+	display: block;
+}
+
+#content {
+	.box-one {
+		background-image: url("../img/chatbox.png");
+		.box;
+	}
+	.box-two {
+		background-image: url("../img/heart.png");
+		.box;
+	}
+	.box-tree {
+		background-image: url("../img/news.png");
+		.box;
+	}
+	.box-four {
+		background-image: url("../img/notes.png");
+		.box;
+	}
+	.box-five {
+		background-image: url("../img/plus.png");
+		.box;
+	}
+	.box-six {
+		background-image: url("../img/mh.png");
+		background-repeat: no-repeat;
+		display: block;
+		width: 100%;
+		height: 85px;
+	}
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			Comunity
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+#comunity {
+	.col ( 12, auto );
+
+	height: 150px;
+	background-color:rgb(237,238,237);
+
+	margin-top: 40px;
+
+	-moz-box-shadow:0px 0px 5px 3px rgba(185,185,200,0.65);
+	-webkit-box-shadow:0px 0px 5px 3px rgba(185,185,200,0.65);
+	box-shadow:0px 0px 5px 3px rgba(185,185,200,0.65);
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			Products
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+#products {
+	.col  ( 12, a );
+	height: 150px;
+	background-color:rgb(237,238,237);
+
+	margin-top: 40px;
+
+	-moz-box-shadow:0px 0px 5px 3px rgba(185,185,200,0.65);
+	-webkit-box-shadow:0px 0px 5px 3px rgba(185,185,200,0.65);
+	box-shadow:0px 0px 5px 3px rgba(185,185,200,0.65);
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			Footer
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+#colophon {
+background:none repeat scroll 0 0 #fff;
+color:#666;
+font-size:.875em;
+line-height:1.285;
+margin:1em 0 0;
+padding:40px 0;
+width:100%
+}
+
+#colophon:after {
+clear:both;
+content:".";
+display:block;
+height:0;
+visibility:hidden
+}
