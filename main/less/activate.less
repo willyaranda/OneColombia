@@ -66,6 +66,9 @@ h6 {
 	font-size: 18rem;
 }
 
+a {
+  .anchor ( #0080C0, #121212, #0080C0, #0080C0, false );
+}
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
 			Header
@@ -97,7 +100,7 @@ h6 {
 \* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 #mosaico {
 	height: 180px;
-	background-color: grey;
+	background-color: #0A675B;
 	clear: both;
 	div {
 		border: 1px solid #494B41;
@@ -224,13 +227,40 @@ h6 {
 			Footer
 \* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 #colophon {
-background:none repeat scroll 0 0 #fff;
-color:#666;
-font-size:.875em;
-line-height:1.285;
-margin:1em 0 0;
-padding:40px 0;
-width:100%
+	.col  ( 12, a );
+	background:none repeat scroll 0 0 #fff;
+	color:#666;
+	font-size:.875em;
+	line-height:1.285;
+	margin:1em 0 0;
+	padding:40px 0;
+	width:100%;
+	list-style: none;
+
+	ul {
+		padding: 0;
+
+		li {
+			list-style: none;
+
+		}
+	}
+	.footer-logo {
+		.col ( 3, f );
+
+		a img {
+			margin-left: 30%;
+		}
+	}
+	.footer-license {
+		.col ( 4, m );
+	}
+	.footer-nav {
+		.col ( 3, m );
+	}
+	.footer-nav2 {
+		.col ( 2, l );
+	}
 }
 
 #colophon:after {

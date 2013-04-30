@@ -24,35 +24,8 @@
 		<h2>Internet, Libre</h2>
 	</header>
 	<div id="mosaico">
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
+
+
 	</div>
 	<div id="content">
 	<div id="banner-news"></div>
@@ -105,7 +78,7 @@
 				</li>
 			</ul>
 
-			<ul class="footer-nav">
+			<ul class="footer-nav2">
 				<li>
 					<a href="http://twitter.com/firefox">Twitter</a>
 				</li>
