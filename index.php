@@ -7,8 +7,8 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="main/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="main/css/fonts.css" />
-	<link rel="stylesheet" href="//www.mozilla.org/tabzilla/media/css/tabzilla.css"  />
-	<link rel="stylesheet" type="text/css" media="screen" href="main/css/activate.css" />
+	<link rel="stylesheet" href="/	/www.mozilla.org/tabzilla/media/css/tabzilla.css"  />
+	<link rel="stylesheet" type="text/css" media="screen" href="main/css/_css.css" />
 
 	<!-- JS -->
 
@@ -23,27 +23,61 @@
 		<h1>Mozilla Colombia</h1>
 		<h2>Internet, Libre</h2>
 	</header>
-	<div id="mosaico">
 
 
-	</div>
+<!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+			Contenido
+     :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+	<div id="mosaico"></div>
+
 	<div id="content">
-	<div id="banner-news"></div>
-	<nav>
-		<ul>
-			<li><span class="box-one"></span><a href=""> Objetivo </a></li>
-			<li><span class="box-two"></span><a href=""> Comunidad </a></li>
-			<li><span class="box-tree"></span><a href=""> Web Abierta </a></li>
-			<li><span class="box-four"></span><a href=""> Blog </a></li>
-			<li><span class="box-five"></span><a href=""> Comunidades </a></li>
-			<li><span class="box-six"></span><a href=""> </a></li>
-		</ul>
-	</nav>
+		<div id="banner-news"></div>
+		<nav>
+			<ul>
+				<li><span class="box-one"></span><a href=""> Objetivo </a></li>
+				<li><span class="box-two"></span><a href=""> Comunidad </a></li>
+				<li><span class="box-tree"></span><a href=""> Web Abierta </a></li>
+				<li><span class="box-four"></span><a href=""> Blog </a></li>
+				<li><span class="box-five"></span><a href=""> Comunidades </a></li>
+				<li><span class="box-six"></span><a href=""> </a></li>
+			</ul>
+		</nav>
+
+		<a href="" class="button_azul">COLABORA &nbsp;►</a>
 	</div>
 
-	<div id="comunity"></div>
+<!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+			Comunidad
+	 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
 
-	<div id="products"></div>
+	<div id="comunity">
+		<h4>Comunidad Mozilla</h4>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+
+<!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+			Productos
+	 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+	<div id="products">
+		<h4>Productos Mozilla</h4>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+
+<!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+			Footer
+	 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
 
 	<footer id="colophon">
 		<div class="row">
@@ -77,6 +111,7 @@
 					<a href="/en-US/legal/fraud-report/index.html">Report Trademark Abuse</a>
 				</li>
 			</ul>
+
 
 			<ul class="footer-nav2">
 				<li>
