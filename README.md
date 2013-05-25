@@ -1,4 +1,5 @@
 OneColombia
 ===========
 
-Wordpress Theme for MozillaColombia.org based in OneMozilla Theme
+Mozilla Colombia.
+Pagina de desarrollo del sitio oficial.
