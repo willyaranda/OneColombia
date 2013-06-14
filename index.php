@@ -130,10 +130,15 @@
 
 </div>
 	<!-- JS live -->
+
 	<!-- // <script src="js/live.js"></script> -->
 	<!-- JS -->
 	<script src="//www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
 	<!--  <script src="https://raw.github.com/debloper/tabzilla/master/media/js/tabzilla.js"></script> -->
 	<!--  <script src="https://raw.github.com/debloper/tabzilla/master/media/js/locale.js"></script> -->
+
+	<script src="main/js/jquery.js"></script>
+	<script src="main/js/_js.js"></script>
+
 </body>
 </html>
