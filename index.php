@@ -44,7 +44,7 @@
 			</ul>
 		</nav>
 
-		<a href="" class="button_azul">COLABORA &nbsp;►</a>
+		<a href="" class="button_colabora">COLABORA &nbsp;►</a>
 	</div>
 
 <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

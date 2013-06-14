@@ -246,8 +246,8 @@ http://www.m6tt.com/2011/09/22/a-less-approach-to-clearfix
 
     @g:     @f+1;
 
-    @nth_n:       ~"@{r}n+@{f}";
-    @nth_n1:      ~"@{r}n+@{g}";
+    // @nth_n:       @{r}n+@{f};
+    // @nth_n1:      ~"@{r}n+@{g}";
 
     .func_width ( @columns_cant );
 
@@ -260,7 +260,7 @@ http://www.m6tt.com/2011/09/22/a-less-approach-to-clearfix
       .clearfix;
     }
 
-    &:nth-of-type( @nth_n ) {
+    &:nth-of-type( @{r}n+@{f} ) {
       float: left;
       position: relative;
       margin-left: @margin !important;
@@ -278,7 +278,7 @@ http://www.m6tt.com/2011/09/22/a-less-approach-to-clearfix
       .clearfix;
     }
 
-    &:nth-of-type( @nth_n1 ) {
+    &:nth-of-type( @{r}n+@{g} ) {
       float: left;
       position: relative;
       margin-left: 0 ;
@@ -309,8 +309,8 @@ http://www.m6tt.com/2011/09/22/a-less-approach-to-clearfix
 
     @move:  ( @column_width + @gutter_width ) * @push_pull;
 
-    @nth_n:       ~"@{r}n+@{f}";
-    @nth_n1:      ~"@{r}n+@{g}";
+    // @nth_n:       ~"@{r}n+@{f}";
+    // @nth_n1:      ~"@{r}n+@{g}";
 
     .func_width ( @columns_cant );
 
@@ -323,7 +323,7 @@ http://www.m6tt.com/2011/09/22/a-less-approach-to-clearfix
       .clearfix;
     }
 
-    &:nth-of-type( @nth_n ) {
+    &:nth-of-type( @{r}n+@{f} ) {
       float: left;
       position: relative;
       margin-left: @margin !important;
@@ -341,7 +341,7 @@ http://www.m6tt.com/2011/09/22/a-less-approach-to-clearfix
       .clearfix;
     }
 
-    &:nth-of-type( @nth_n1 ) {
+    &:nth-of-type( @{r}n+@{g} ) {
       float: left;
       position: relative;
       margin-left: 0 ;
@@ -362,8 +362,9 @@ http://www.m6tt.com/2011/09/22/a-less-approach-to-clearfix
 
 
   .col-s ( @parent, @numOfCols ) {
-    @nth-n:~"@{numOfCols}n";
-    @nth-n1:~"@{numOfCols}n+1";
+
+    // @nth-n:~"@{numOfCols}n";
+    // @nth-n1:~"@{numOfCols}n+1";
 
     @sub-total-width: ( @parent * @column_width ) + (( @parent - 1) * @gutter_width ) ;
     @sub-width: (( @sub-total-width - ( @gutter_width * ( @numOfCols - 1 ))) / @numOfCols)-0.5 ;
@@ -377,7 +378,7 @@ http://www.m6tt.com/2011/09/22/a-less-approach-to-clearfix
 
     }
 
-    &:nth-of-type( @nth-n ) {
+    &:nth-of-type( @{numOfCols}n ) {
       float: left;
       position: relative;
       margin-left: @margin !important;
@@ -393,7 +394,7 @@ http://www.m6tt.com/2011/09/22/a-less-approach-to-clearfix
       width: @sub-width + 0;
     }
 
-    &:nth-of-type( @nth-n1 ) {
+    &:nth-of-type( @{numOfCols}n+1 ) {
       float: left;
       position: relative;
       margin-left: 0 ;
