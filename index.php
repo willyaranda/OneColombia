@@ -35,12 +35,12 @@
 		<div id="banner-news"></div>
 		<nav>
 			<ul>
-				<li><span class="box-one"></span><a href=""> Objetivo </a></li>
-				<li><span class="box-two"></span><a href=""> Comunidad </a></li>
-				<li><span class="box-tree"></span><a href=""> Web Abierta </a></li>
-				<li><span class="box-four"></span><a href=""> Blog </a></li>
-				<li><span class="box-five"></span><a href=""> Comunidades </a></li>
-				<li><span class="box-six"></span><a href=""> </a></li>
+				<a href=""><li><span class="box-one"></span> Objetivo </li></a>
+				<a href=""><li><span class="box-two"></span> Comunidad </li></a>
+				<a href=""><li><span class="box-tree"></span> Web Abierta </li></a>
+				<a href=""><li><span class="box-four"></span> Blog </li></a>
+				<a href=""><li><span class="box-five"></span> Comunidades </li></a>
+				<a href=""><li><span class="box-six"></span> </li></a>
 			</ul>
 		</nav>
 

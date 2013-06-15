@@ -133,17 +133,38 @@ a {
 	nav {
 		.col ( 8, f );
 		margin-top: 40px;
+
 		ul {
 			list-style: none;
 			padding: 0;
-			li {
-				.col ( 4, 2 );
-				a {
-					.anchor ( #8C8C8C, #0080C0 , #8C8C8C, #8C8C8C, false );
+
+			a {
+
+				.anchor ( #8C8C8C, #0080C0 , #8C8C8C, #8C8C8C, false );
+
+				li {
+					.col ( 4, 2 );
 					font-size: 28rem;
 					left: 6px;
-				   position: relative;
-				   top: 22px;
+					position: relative;
+					top: 22px;
+
+					&:hover {
+						background-color: rgba(128,128,128,0.05);
+						-webkit-box-shadow:  0px 0px 10px 0px rgba(0,0,0,0.05);
+						-moz-box-shadow:  0px 0px 10px 0px rgba(0,0,0,0.05);
+						box-shadow:  0px 0px 10px 0px rgba(0,0,0,0.05);
+					}
+					&:active {
+						background-color: rgba(128,128,128,0.05);
+						-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.05);
+						-moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.05);
+						box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.05);
+
+						border-radius: 5px 5px 5px 5px;
+						-moz-border-radius: 5px 5px 5px 5px;
+						-webkit-border-radius: 5px 5px 5px 5px;
+					}
 				}
 			}
 		}
@@ -188,14 +209,17 @@ a {
 	}
 }
 
+#banner-news {
+	background-image: url(../img/banner.jpg);
+	border: 1px solid white;
+}
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
 			Comunity
 \* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 #comunity {
-	.col ( 12, auto );
-
+	.col  ( 12, a );
 	height: 150px;
 	background-color:rgb(237,238,237);
 
@@ -208,12 +232,12 @@ a {
 	h4 {
 		text-align: center;
 		color: #C0C0C0;
-		margin-top: 5px;
+		margin: 5px 0;
 	}
 
 	div {
 		width: 100px;
-		height: 90px;
+		height: 100px;
 		float: left;
 		margin: 0 20px;
 		background-color: red;
