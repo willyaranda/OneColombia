@@ -68,12 +68,12 @@
 	<div id="products">
 		<h4>Productos Mozilla</h4>
 
-		<div id="prod--01"><a href="http://www.mozilla.org/en-US/" target="BLANK"></a></div>
-		<div id="prod--02"><a href="http://www.mozilla.org/en-US/firefox/partners/" target="BLANK"></a></div>
-		<div id="prod--03"><a href="http://www.mozilla.org/en-US/apps/" target="BLANK"></a></div>
-		<div id="prod--04"><a href="http://www.mozilla.org/en-US/persona/" target="BLANK"></a></div>
-		<div id="prod--05"><a href="http://www.mozilla.org/en-US/thunderbird/" target="BLANK"></a></div>
-		<div id="prod--06"><a href="https://webmaker.org/en-US/" target="BLANK"></a></div>
+		<div id="prod_01"><a href="http://www.mozilla.org/en-US/" target="BLANK"></a></div>
+		<div id="prod_02"><a href="http://www.mozilla.org/en-US/firefox/partners/" target="BLANK"></a></div>
+		<div id="prod_03"><a href="http://www.mozilla.org/en-US/apps/" target="BLANK"></a></div>
+		<div id="prod_04"><a href="http://www.mozilla.org/en-US/persona/" target="BLANK"></a></div>
+		<div id="prod_05"><a href="http://www.mozilla.org/en-US/thunderbird/" target="BLANK"></a></div>
+		<div id="prod_06"><a href="https://webmaker.org/en-US/" target="BLANK"></a></div>
 	</div>
 
 <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

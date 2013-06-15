@@ -1,4 +1,5 @@
-$(document).on("ready", init);
+// $(document).on("ready", init, loop );
+
 
 function init () {
     $.getJSON("main/js/tabzilla.json",function(data){
@@ -19,16 +20,22 @@ function init () {
 };
 
 
-
-
-
-
-$(document).on("ready", loop );
-
 function loop (){
-     $('#mosaico')
+    $('#mosaico')
         .css({
             "background-position" : "0px"
         })
-          .animate({"background-position" : "-7000px" }, { duration: 100000 });
+        .animate({
+            "background-position" : "-7000px"
+        },
+        {
+            duration: 100000
+        });
 };
+
+$(document).ready(function() {
+
+    init();
+    loop();
+
+});
