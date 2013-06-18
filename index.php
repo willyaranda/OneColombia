@@ -45,6 +45,13 @@
 		</nav>
 
 		<a href="" class="button_colabora">COLABORA &nbsp;►</a>
+
+
+	<!-- Tweeter -->
+<a class="twitter-timeline"  href="https://twitter.com/Migueldavidq/mozilla"  data-widget-id="346747120050659331" data-tweet-limit="1" width="300px" height="300px"  data-chrome="nofooter noheader" ></a>
+
+
+
 	</div>
 
 <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -140,6 +147,11 @@
 
 	<script src="main/js/jquery.js"></script>
 	<script src="main/js/_js.js"></script>
+
+	<!-- Twitter -->
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 
 </body>
 </html>
