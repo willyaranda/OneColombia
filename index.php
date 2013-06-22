@@ -1,3 +1,8 @@
+<?php
+/* Short and sweet */
+define('WP_USE_THEMES', false);
+require('/blog/wp-blog-header.php');
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,8 +25,9 @@
 	<header id="header">
 	<a href="http://www.mozilla.org/" id="tabzilla" data-locale="es-ES">mozilla</a>
 		<div id="logo-mc"></div>
-		<h1>Mozilla Colombia</h1>
-		<h2>Internet, Libre</h2>
+		<h1><?php echo get_bloginfo('name'); ?></h1>
+		<h2><?php echo get_bloginfo('description'); ?></h2>
+
 	</header>
 
 
@@ -75,12 +81,12 @@
 	<div id="products">
 		<h4>Productos Mozilla</h4>
 
-		<div id="prod_01"><a href="http://www.mozilla.org/en-US/" target="BLANK"></a></div>
-		<div id="prod_02"><a href="http://www.mozilla.org/en-US/firefox/partners/" target="BLANK"></a></div>
-		<div id="prod_03"><a href="http://www.mozilla.org/en-US/apps/" target="BLANK"></a></div>
-		<div id="prod_04"><a href="http://www.mozilla.org/en-US/persona/" target="BLANK"></a></div>
-		<div id="prod_05"><a href="http://www.mozilla.org/en-US/thunderbird/" target="BLANK"></a></div>
-		<div id="prod_06"><a href="https://webmaker.org/en-US/" target="BLANK"></a></div>
+		<div id="prod_01"><a href="https://www.mozilla.org/firefox/" target="BLANK"></a></div>
+		<div id="prod_02"><a href="https://www.mozilla.org/firefox/partners/#os" target="BLANK"></a></div>
+		<div id="prod_03"><a href="https://www.mozilla.org/apps/" target="BLANK"></a></div>
+		<div id="prod_04"><a href="https://www.mozilla.org/persona/" target="BLANK"></a></div>
+		<div id="prod_05"><a href="https://www.mozilla.org/thunderbird/" target="BLANK"></a></div>
+		<div id="prod_06"><a href="https://webmaker.org/" target="BLANK"></a></div>
 	</div>
 
 <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
