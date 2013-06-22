@@ -29,7 +29,7 @@ function loop (){
             "background-position" : "-7000px"
         },
         {
-            duration: 100000
+            duration: 300000
         });
 };
 
