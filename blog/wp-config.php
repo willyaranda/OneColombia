@@ -91,4 +91,4 @@ require_once(ABSPATH . 'wp-settings.php');
 
 define('WP_MEMORY_LIMIT', '64M');
 
-error_reporting(E_ALL);
+//error_reporting(E_ALL);
