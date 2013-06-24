@@ -1,7 +1,7 @@
 <?php
 /* Short and sweet */
 define('WP_USE_THEMES', false);
-require('/blog/wp-blog-header.php');
+require('./blog/wp-blog-header.php');
 ?>
 <!doctype html>
 <html lang="en">
